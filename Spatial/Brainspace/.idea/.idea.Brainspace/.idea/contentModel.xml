@@ -13,6 +13,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="FlipNormals.cs" t="Include" />
+          <e p="IteratorTrigger.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="RenderTextureSetup.cs" t="Include" />
         </e>

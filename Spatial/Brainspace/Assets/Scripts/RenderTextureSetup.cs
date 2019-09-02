@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using UnityEditor;
+//using UnityEditor;
 using UnityEngine;
 
 public class RenderTextureSetup : MonoBehaviour {
@@ -11,7 +11,7 @@ public class RenderTextureSetup : MonoBehaviour {
 
 }
 
-[CustomEditor(typeof(RenderTextureSetup))]
+/*[CustomEditor(typeof(RenderTextureSetup))]
 public class RenderTextureSetupEditor : Editor {
     
     private const string MAT_PATH = "Assets/Design/Materials/RenderMaterials/",
@@ -74,5 +74,5 @@ public class RenderTextureSetupEditor : Editor {
         
     }
 
-}
+}*/
 
