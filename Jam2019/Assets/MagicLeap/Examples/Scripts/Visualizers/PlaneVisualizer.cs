@@ -150,6 +150,11 @@ namespace MagicLeap
         private RenderType _renderType = RenderType.Border;
         #endregion
 
+        public GameObject PlanesParent()
+        {
+            return _planesParent; 
+        }
+
         #region Unity Methods
         /// <summary>
         /// Initializes all variables and makes sure needed components exist
