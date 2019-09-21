@@ -47,7 +47,7 @@ public static class ListExtentions
 
     public static T Random<T>(this List<T> list) {
 
-        int index = UnityEngine.Random.Range(0, list.Count() - 1);
+        int index = UnityEngine.Random.Range(0, list.Count());
         return list[index];
 
     }

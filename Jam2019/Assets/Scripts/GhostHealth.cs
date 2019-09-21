@@ -22,6 +22,7 @@ public class GhostHealth : MonoBehaviour, ITakeDamage {
     private void Explode() {
         Destroy(Instantiate(explosionPrefab, transform.position, transform.rotation), 3f);
         Destroy(gameObject);
+        
     }
     
 }
