@@ -12,8 +12,10 @@ public class Gun : MonoBehaviour
     {
         
     }
+public class Gun : MonoBehaviour {
 
-    // Update is called once per frame
+    [SerializeField] private Transform axis;
+
     void Update()
     {
       
