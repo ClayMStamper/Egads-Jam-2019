@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Jam2019/Assets/Scripts/Projectile.cs.meta
-guid: 7d640c40ef074794eaa352cfc9428549
-=======
-guid: e94612a6820cf4651aef4af96f0f7a91
->>>>>>> 9a08ebb625ffb6678957e777230c6d92ff882f65:Jam2019/Assets/Scripts/Behaviors/FlockAlignment.cs.meta
+guid: 63166f943eb7c4836a6c7800281c8f6e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
