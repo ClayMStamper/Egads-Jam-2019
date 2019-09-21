@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gun : MonoBehaviour
+public class GhostManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
