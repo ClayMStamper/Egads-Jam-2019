@@ -9,8 +9,8 @@ public class GhostMovement : MonoBehaviour {
    
     public void Move() {
 
-        Vector3 targetPos = behaviors[1].GetDesiredDestination(transform);
-        transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime * speed);
+      //  Vector3 targetPos = behaviors[1].GetDesiredDestination(transform);
+        //transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime * speed);
 
     }
    
