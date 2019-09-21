@@ -20,10 +20,7 @@ public class FlockPlayerChase : FlockBehavior
         Vector3 targetMove = targetDistance.normalized;
         
         targetMove *= Mathf.Clamp(Mathf.Pow(numBase, targetDistance.magnitude * exp), lowerLimit, upperLimit);
-
-
-
-
+        
         return targetMove;
 
     }
