@@ -120,5 +120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3dfd7da44716424c978b724728fb08e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Behaviors: []
+  Behaviors:
+  - {fileID: 11400000, guid: c86eded11f361428eb79cd4975d4245c, type: 2}
   weights: 0100000001000000

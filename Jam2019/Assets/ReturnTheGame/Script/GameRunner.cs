@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class GameRunner : MonoBehaviour {
     
-    [SerializeField] private Flock flock;
+    [SerializeField] private FlockManager _flockManager;
 
     private bool running;
     private float timeElapsed;
@@ -14,6 +15,7 @@ public class GameRunner : MonoBehaviour {
     
     public void RunGame()
     {
+        _flockManager.Setup();
         running = true;
         timeElapsed = 0.0f;
     }
@@ -31,7 +33,7 @@ public class GameRunner : MonoBehaviour {
 
         timeElapsed += Time.deltaTime;
 
-        flock.Run();
+        //_flockManager.Run();
 
     }
 
