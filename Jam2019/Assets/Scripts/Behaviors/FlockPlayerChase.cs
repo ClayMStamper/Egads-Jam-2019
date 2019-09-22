@@ -21,7 +21,8 @@ public class FlockPlayerChase : FlockBehavior
         
         targetMove *= Mathf.Clamp(Mathf.Pow(numBase, targetDistance.magnitude * exp), lowerLimit, upperLimit);
         targetMove.Set(targetMove.x, targetMove.y + yOffset, targetMove.z);
-        
+        //agent.transform.RotateAround(Vector3.zero, Vector3.up, 20 * Time.deltaTime);
+
         return targetMove;
 
     }

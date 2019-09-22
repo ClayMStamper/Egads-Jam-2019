@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   exp: 2
   numBase: 2
-  lowerLimit: -5000000
-  upperLimit: 5000000
+  lowerLimit: -9000000
+  upperLimit: 9000000
+  yOffset: 10000
