@@ -10,6 +10,7 @@
 // ---------------------------------------------------------------------
 // %BANNER_END%
 
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.MagicLeap;
@@ -28,6 +29,7 @@ namespace MagicLeap
 
         private IntroRunner _introRunner;
         private GravePlacer _gravePlacer;
+        private GameRunner _gameRunner;
         
         private enum GameModes
         {
@@ -38,6 +40,7 @@ namespace MagicLeap
             End
         };
 
+        [SerializeField]
         private GameModes _currentGameMode = GameModes.Intro;
         
         private Camera _camera;
@@ -83,6 +86,14 @@ namespace MagicLeap
                 enabled = false;
                 return;
             }
+
+            _gameRunner = GetComponent<GameRunner>();
+            if (!_gameRunner) {
+                Debug.LogError("Error: GameManager._gameRunner is not set, disabling script.");
+                enabled = false;
+                return;
+            }
+            
         }
 
         void Update()
@@ -104,10 +115,12 @@ namespace MagicLeap
                 case GameModes.Start:
                     // TODO run game mode
                     _currentGameMode = GameModes.Play;
+                    _gameRunner.RunGame();
                     break;
                 case GameModes.Play:
-                    // TODO wait for game end conditions
-                    _currentGameMode = GameModes.End;
+                    if (!_gameRunner.IsRunning()) {
+                        _currentGameMode = GameModes.End;
+                    }
                     break;
                 case GameModes.End:
                     // TODO test for user restarting game

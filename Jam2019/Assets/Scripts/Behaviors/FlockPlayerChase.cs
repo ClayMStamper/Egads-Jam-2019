@@ -13,7 +13,7 @@ public class FlockPlayerChase : FlockBehavior
     [SerializeField] private float upperLimit = 5000000;
     [SerializeField] private float yOffset = 2;
     
-    public override Vector3 CalculateMove(FlockAgent agent, List<Transform> context, Flock flock)
+    public override Vector3 CalculateMove(FlockAgent agent, List<Transform> context, FlockManager flockManager)
     {
 
         Vector3 targetDistance = (Camera.main.transform.position - agent.transform.position);
