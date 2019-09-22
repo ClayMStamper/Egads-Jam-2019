@@ -23,6 +23,7 @@ public class Flock : MonoBehaviour {
 
     private float timePerSeperation = 5f;
     private float elapsed;
+    
 
     private void Start() {
         
