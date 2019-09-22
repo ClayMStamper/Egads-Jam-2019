@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c55f7d862e46421da8c102cac47263f, type: 3}
   m_Name: GotoGrave
   m_EditorClassIdentifier: 
+  maxSpeed: 0.2

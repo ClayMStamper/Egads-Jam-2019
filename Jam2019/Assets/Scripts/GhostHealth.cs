@@ -7,10 +7,6 @@ public class GhostHealth : MonoBehaviour, ITakeDamage {
     [SerializeField]
     private float health = 100;
     [SerializeField] 
-    private GameObject explosionPrefab;
-    [SerializeField] 
-    private Material dissolveMateral;
-    [SerializeField] 
     private float destroyAfter;
         
     
@@ -25,8 +21,7 @@ public class GhostHealth : MonoBehaviour, ITakeDamage {
     }
 
     private void Explode() {
-        Destroy(Instantiate(explosionPrefab, transform.position, transform.rotation), 3f);
-        GetComponent<MeshRenderer>().material = dissolveMateral;
+        GetComponent<SpawnEffect>().enabled = true;
         Destroy(gameObject, destroyAfter);
         
     }
