@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Behavior/Flock/Cohesion")]
+[CreateAssetMenu(menuName = "Behavior/FlockManager/Cohesion")]
 public class FlockCohesion : FlockBehavior {
     
     private Vector3 velocity;
 
     public float agentSmoothTime = 0.5f;//how quickly movement smooths
     
-    public override Vector3 CalculateMove(FlockAgent agent, List<Transform> context, Flock flock) {
+    public override Vector3 CalculateMove(FlockAgent agent, List<Transform> context, FlockManager flockManager) {
         
         //no neighbors means no adjustment
         if (context.Count == 0)

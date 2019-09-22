@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Flock : MonoBehaviour {
+public class FlockManager : MonoBehaviour {
 
     public FlockAgent agentPrefab;
     List<FlockAgent> agents = new List<FlockAgent>();
@@ -23,8 +23,8 @@ public class Flock : MonoBehaviour {
 
     private float timePerSeperation = 5f;
     private float elapsed;
-
-    private void Start() {
+    
+    public void Setup() {
         
         squareMaxSpeed = maxSpeed * maxSpeed;
         squareNeightborRadius = neighborRadius * neighborRadius;
@@ -44,7 +44,7 @@ public class Flock : MonoBehaviour {
         }
     }
 
-    private void Update() {
+    public void Run() {
 
         elapsed += Time.deltaTime;
         

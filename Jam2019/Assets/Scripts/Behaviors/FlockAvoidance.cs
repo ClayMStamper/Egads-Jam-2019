@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Behavior/Flock/Avoidance")]
+[CreateAssetMenu(menuName = "Behavior/FlockManager/Avoidance")]
 public class FlockAvoidance : FlockBehavior
 {
-    public override Vector3 CalculateMove(FlockAgent agent, List<Transform> context, Flock flock) {
+    public override Vector3 CalculateMove(FlockAgent agent, List<Transform> context, FlockManager flockManager) {
         
         //no neighbors means no adjustment
         if (context.Count == 0)
@@ -15,7 +15,7 @@ public class FlockAvoidance : FlockBehavior
         int avoidCount = 0;
         Vector3 avoidance = Vector3.zero;
         foreach (Transform item in context) {
-            if (Vector3.SqrMagnitude(item.position - agent.transform.position) < flock.squareAvoidanceRadius) {
+            if (Vector3.SqrMagnitude(item.position - agent.transform.position) < flockManager.squareAvoidanceRadius) {
                 avoidCount++;
                 avoidance += agent.transform.position - item.position; //offset
             }

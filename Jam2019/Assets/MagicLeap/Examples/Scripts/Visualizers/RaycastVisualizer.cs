@@ -77,12 +77,12 @@ namespace MagicLeap
                 }
             }
 
-            if (_raycast == null)
-            {
-                Debug.LogError("Error: RaycastVisualizer._raycast is not set, disabling script.");
-                enabled = false;
-                return;
-            }
+          //  if (_raycast == null)
+          //  {
+            //    Debug.LogError("Error: RaycastVisualizer._raycast is not set, disabling script.");
+              //  enabled = false;
+               // return;
+           // }
 
             _render = GetComponent<Renderer>();
             if (_render == null)
