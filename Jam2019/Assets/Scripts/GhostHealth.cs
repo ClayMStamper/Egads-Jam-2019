@@ -21,9 +21,8 @@ public class GhostHealth : MonoBehaviour, ITakeDamage {
     }
 
     public void Explode() {
-        GetComponent<SpawnEffect>().enabled = true;
+        //GetComponent<SpawnEffect>().enabled = true;
         Destroy(gameObject, destroyAfter);
-        
     }
     
 }
