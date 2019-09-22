@@ -21,6 +21,12 @@ public class WispController : MonoBehaviour {
         _camera = Camera.main;
     }
 
+    void Awake()
+    {
+        ResetStart();
+        _camera = Camera.main;
+    }
+
     void ResetStart()
     {
         transform.position = WispStart.transform.position;
