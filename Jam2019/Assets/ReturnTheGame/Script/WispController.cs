@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WispController : MonoBehaviour
-{
+public class WispController : MonoBehaviour {
 
+    private const string GRAVE_TAG = "grave";
+    
     private Camera _camera;
     public GameObject WispTarget;
     public GameObject WispStart;
@@ -42,5 +43,11 @@ public class WispController : MonoBehaviour
         lookPos.y = 0;
         var rotation = Quaternion.LookRotation(lookPos);
         transform.rotation = rotation;
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag(GRAVE_TAG)) {
+            FindObjectOfType<GameRunner>().LoseLife();
+        }
     }
 }
