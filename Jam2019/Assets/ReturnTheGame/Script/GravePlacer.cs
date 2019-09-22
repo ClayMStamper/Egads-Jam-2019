@@ -15,6 +15,7 @@ namespace MagicLeap
         private Planes _planesComponent;
         private PlaneVisualizer _planesVisualizer;
         private List<GameObject> _graves = new List<GameObject>();
+        public GameObject wisp;
 
         public GameObject GravePrefab;
         public float GraveSpawnDistance = 1.0f;
@@ -33,6 +34,7 @@ namespace MagicLeap
                 {
                     grave.SetActive(true);
                     GraveManager.instance.graves.Add(grave.transform);
+                    wisp.SetActive(false);
                 }
                 return true; 
             }
