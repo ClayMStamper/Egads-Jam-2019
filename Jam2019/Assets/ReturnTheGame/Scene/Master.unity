@@ -809,6 +809,8 @@ MonoBehaviour:
   wisp: {fileID: 1565256034}
   GravePrefab: {fileID: 6865823182688692051, guid: 0c675334177650645ac2a0a3571795ec,
     type: 3}
+  LavaPrefab: {fileID: 2843404837690128699, guid: 75c77d1500629704f812c02ad0718f1a,
+    type: 3}
   GraveSpawnDistance: 2.5
   GraveCount: 5
 --- !u!114 &1497288039
