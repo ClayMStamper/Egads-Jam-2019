@@ -10,7 +10,8 @@ public class FlockAgent : MonoBehaviour
     public Transform target { get; set; }
     
     public Collider collider { get; private set; }
-    public FlockBehavior circle, grave;
+    public  List<FlockBehavior> Behaviors;
+    public  int [] weights;
 
     private void Start() {
         target = GraveManager.instance.GetTarget();
@@ -24,18 +25,40 @@ public class FlockAgent : MonoBehaviour
 
     }
 
-    public void Seperate() {
-
-        List<FlockBehavior> behaviors = new List<FlockBehavior>() {circle, grave};
+    public void Separate() {
+        
+        Debug.Log(transform.name + " has left the flock");
         StartCoroutine(GotoGrave());
-
     }
 
     private IEnumerator GotoGrave() {
 
-        while (true) {
+        while (true)    
+        {
 
-            //loop through new list of behaviors defined in seperate
+            
+            //setup move
+            Vector3 move = Vector3.zero;
+            
+            int i = 0;
+            foreach (FlockBehavior behavior in Behaviors)
+            {
+                Vector3 partialMove = behavior.CalculateMove(this, null, null) * weights[i];
+                i++;
+
+
+                if (partialMove != Vector3.zero)
+                {
+
+                    if (partialMove.sqrMagnitude > weights[i] * weights[i])
+                    {
+                        partialMove.Normalize();
+                        partialMove *= weights[i];
+                    }
+
+                    move += partialMove;
+                }
+            }
 
             yield return null;
 

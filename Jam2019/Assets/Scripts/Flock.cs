@@ -59,8 +59,13 @@ public class Flock : MonoBehaviour {
             agent.Move(move);
         }
         
-        if (elapsed > timePerSeperation){
-            agents.Random().Seperate();
+        //seperation
+        if (elapsed > timePerSeperation)
+        {
+            FlockAgent agent = agents.Random();
+            agent.Separate();
+            agents.Remove(agent);
+            elapsed = 0f;
         }
         
     }
