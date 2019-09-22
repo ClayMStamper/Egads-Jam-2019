@@ -31,14 +31,8 @@ public class GameRunner : MonoBehaviour {
         if (!running)
             return;
 
-        timeElapsed += Time.deltaTime;
+        _flockManager.Run();
 
-        //_flockManager.Run();
-
-    }
-
-    public void Play() {
-        running = true;
     }
 
     public void LoseLife() {
