@@ -13,7 +13,7 @@ public class FlockAgent : MonoBehaviour
     public Collider collider { get; private set; }
     public  List<FlockBehavior> Behaviors;
     public  int [] weights;
-
+    
     private void Start() {
         collider = GetComponent<Collider>();
     }
@@ -29,6 +29,8 @@ public class FlockAgent : MonoBehaviour
         
         target = GraveManager.instance.GetTarget();
         Debug.Log(transform.name + " has left the flock");
+        GetComponent<TrailRenderer>().enabled = true;
+        GetComponent<BoxCollider>().enabled = true;
         StartCoroutine(GotoGrave());
     }
 
