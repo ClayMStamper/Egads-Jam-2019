@@ -26,6 +26,7 @@ namespace MagicLeap
         [SerializeField, Space, Tooltip("Text to display countdown to start the level")]
         private Text _countDownText = null;
 
+        private IntroRunner _introRunner;
         private GravePlacer _gravePlacer;
         
         private enum GameModes
@@ -65,6 +66,16 @@ namespace MagicLeap
             
             _camera = Camera.main;
 
+            _introRunner = GetComponent<IntroRunner>();
+            if (_introRunner == null)
+            {
+                Debug.LogError("Error: GameManager._introRunner is not set, disabling script.");
+                enabled = false;
+                return;
+            }
+
+            _introRunner.RunIntro();
+            
             _gravePlacer = GetComponent<GravePlacer>();
             if (_gravePlacer == null)
             {
@@ -79,8 +90,10 @@ namespace MagicLeap
             switch (_currentGameMode)
             {
                 case GameModes.Intro:
-                    // TODO wait for intro to finish
-                    _currentGameMode = GameModes.Scan;
+                    if (!_introRunner.IsRunning())
+                    {
+                        _currentGameMode = GameModes.Scan;
+                    }
                     break;
                 case GameModes.Scan:
                     if (_gravePlacer.GravesPlaced())
