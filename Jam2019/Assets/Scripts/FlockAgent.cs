@@ -13,7 +13,6 @@ public class FlockAgent : MonoBehaviour
     public  int [] weights;
 
     private void Start() {
-        target = GraveManager.instance.GetTarget();
         collider = GetComponent<Collider>();
     }
 
@@ -26,6 +25,7 @@ public class FlockAgent : MonoBehaviour
 
     public void Separate() {
         
+        target = GraveManager.instance.GetTarget();
         Debug.Log(transform.name + " has left the flock");
         StartCoroutine(GotoGrave());
     }
@@ -34,7 +34,6 @@ public class FlockAgent : MonoBehaviour
 
         while (true)    
         {
-
             
             //setup move
             Vector3 move = Vector3.zero;
@@ -43,9 +42,7 @@ public class FlockAgent : MonoBehaviour
             foreach (FlockBehavior behavior in Behaviors)
             {
                 Vector3 partialMove = behavior.CalculateMove(this, null, null) * weights[i];
-                i++;
-
-
+                
                 if (partialMove != Vector3.zero)
                 {
 
@@ -55,8 +52,9 @@ public class FlockAgent : MonoBehaviour
                         partialMove *= weights[i];
                     }
 
-                    move += partialMove;
+                    Move(partialMove);
                 }
+                i++;
             }
 
             yield return null;
