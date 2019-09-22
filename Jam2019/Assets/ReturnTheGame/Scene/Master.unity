@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18366013, g: 0.22913976, b: 0.3051944, a: 1}
+  m_IndirectSpecularColor: {r: 0.18364772, g: 0.22912571, b: 0.3051873, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -724,6 +724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad28fd99311f664f95fdc39b929687f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wisp: {fileID: 0}
   GravePrefab: {fileID: 6865823182688692051, guid: 0c675334177650645ac2a0a3571795ec,
     type: 3}
   GraveSpawnDistance: 2.5
