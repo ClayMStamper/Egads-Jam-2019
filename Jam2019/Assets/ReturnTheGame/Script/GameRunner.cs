@@ -15,7 +15,7 @@ public class GameRunner : MonoBehaviour {
     
     public void RunGame()
     {
-        if (!_flockManager)
+        if (_flockManager)
         {
             _flockManager.Setup();
         }

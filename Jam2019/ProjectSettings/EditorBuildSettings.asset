@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/ReturnTheGame/Scene/testScene.unity
     guid: 915903ff9dc52ac468f4cb9f37092cca
+  - enabled: 1
+    path: Assets/ReturnTheGame/Scene/Master.unity
+    guid: 0f41e4a0a997c42ceac677135254d077
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 13815efa0f37f0a408f1765460dbe2f4,
       type: 2}
