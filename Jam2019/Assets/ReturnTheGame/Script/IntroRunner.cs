@@ -52,6 +52,7 @@ public class IntroRunner : MonoBehaviour
         if (fadeOut){
             if (timeElapsed > FadeOutTime)
             {
+                Debug.Log("Faded out");
                 fadeOut = false;
                 running = false;
                 splashImage.gameObject.SetActive(false);

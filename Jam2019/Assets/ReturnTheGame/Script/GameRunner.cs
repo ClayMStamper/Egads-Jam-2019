@@ -15,7 +15,11 @@ public class GameRunner : MonoBehaviour {
     
     public void RunGame()
     {
-        _flockManager.Setup();
+        if (!_flockManager)
+        {
+            _flockManager.Setup();
+        }
+
         running = true;
         timeElapsed = 0.0f;
     }
@@ -31,7 +35,10 @@ public class GameRunner : MonoBehaviour {
         if (!running)
             return;
 
-        _flockManager.Run();
+        if (_flockManager != null)
+        {
+            _flockManager.Run();
+        }
 
     }
 

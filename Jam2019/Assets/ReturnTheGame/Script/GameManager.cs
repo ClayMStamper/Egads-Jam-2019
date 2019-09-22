@@ -47,7 +47,7 @@ namespace MagicLeap
 
         void SetGameModeText()
         {
-            _countDownText.text =string.Format("Game Mode: {0}", _currentGameMode.ToString());
+            _countDownText.text = string.Format("Game Mode: {0}", _currentGameMode.ToString());
         }
         
 
