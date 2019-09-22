@@ -45,14 +45,17 @@ Category {
 
 			v2f vert (appdata_t v)
 			{
-				v2f o;
+			    v2f o;
+			    
+				UNITY_SETUP_INSTANCE_ID(v); //Insert
+                UNITY_INITIALIZE_OUTPUT(v2f, o); //Insert
+                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o); //Insert 
+				
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.texcoord = TRANSFORM_TEX(v.texcoord,_MainTex);
 				o.texcoord1 = TRANSFORM_TEX(v.texcoord,_LavaTex);
 				
-				UNITY_SETUP_INSTANCE_ID(v); //Insert
-                UNITY_INITIALIZE_OUTPUT(v2f, o); //Insert
-                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o); //Insert
+
                     
 				return o;
 			}
