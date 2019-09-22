@@ -5,16 +5,19 @@ using UnityEngine;
 public class WispController : MonoBehaviour
 {
 
+    private Camera _camera;
     public GameObject WispTarget;
     public GameObject WispStart;
     private Vector3 WispMoveVelocity;
     public float MaxWispVelocity = 1.0f;
     public float WispAcceleration = 0.15f;
+    
         
     // Start is called before the first frame update
     void Start()
     {
         ResetStart();
+        _camera = Camera.main;
     }
 
     void ResetStart()
@@ -32,6 +35,12 @@ public class WispController : MonoBehaviour
         {
             WispMoveVelocity = Vector3.Normalize(WispMoveVelocity) * MaxWispVelocity;
         }
+
         transform.position = transform.position + WispMoveVelocity;
+        
+        var lookPos = _camera.transform.position - transform.position;
+        lookPos.y = 0;
+        var rotation = Quaternion.LookRotation(lookPos);
+        transform.rotation = rotation;
     }
 }
