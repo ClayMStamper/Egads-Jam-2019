@@ -6,6 +6,8 @@ using UnityEngine;
 public class FlockAgent : MonoBehaviour
 {
 
+    private const string GRAVE_TAG = "grave";
+    
     public Transform target { get; set; }
     
     public Collider collider { get; private set; }
@@ -63,5 +65,11 @@ public class FlockAgent : MonoBehaviour
         
     }
     
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag(GRAVE_TAG)) {
+            FindObjectOfType<GameRunner>().LoseLife();
+            GetComponent<GhostHealth>().TakeDamage(100);
+        }
+    }
     
 }

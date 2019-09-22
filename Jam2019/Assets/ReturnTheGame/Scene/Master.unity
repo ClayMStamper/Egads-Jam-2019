@@ -724,6 +724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad28fd99311f664f95fdc39b929687f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wisp: {fileID: 1565256034}
   GravePrefab: {fileID: 6865823182688692051, guid: 0c675334177650645ac2a0a3571795ec,
     type: 3}
   GraveSpawnDistance: 2.5
@@ -827,6 +828,12 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.XR.MagicLeap.Planes+PlanesUpdateEvent, Assembly-CSharp,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!1 &1565256034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1164701910817525093, guid: ec73f150497775b498c2b64717e29ad5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1683062530}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1683062530
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9376,6 +9376,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4563499475605352}
   - component: {fileID: 114989437170039760}
+  - component: {fileID: 8807209407833232683}
+  - component: {fileID: 2999937881139737273}
   m_Layer: 0
   m_Name: Effect1
   m_TagString: Untagged
@@ -9411,6 +9413,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
+--- !u!135 &8807209407833232683
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520087651631666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.8316941
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2999937881139737273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520087651631666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 514b71ed2e0ee4f1798f4ac30c09e6d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1538089418917460
 GameObject:
   m_ObjectHideFlags: 0

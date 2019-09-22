@@ -35,8 +35,6 @@ public class Projectile : MonoBehaviour
     {
         Debug.Log(this + " Collision with " + other);
         
-        if (other is null) return;
-        
         Destroy(gameObject);
         
         other.gameObject.SendMessage("TakeDamage", 0,  SendMessageOptions.RequireReceiver);

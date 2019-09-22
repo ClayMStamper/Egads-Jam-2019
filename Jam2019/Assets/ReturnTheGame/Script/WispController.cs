@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class WispController : MonoBehaviour {
 
-    private const string GRAVE_TAG = "grave";
     
     private Camera _camera;
     public GameObject WispTarget;
@@ -51,9 +50,5 @@ public class WispController : MonoBehaviour {
         transform.rotation = rotation;
     }
 
-    private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag(GRAVE_TAG)) {
-            FindObjectOfType<GameRunner>().LoseLife();
-        }
-    }
+
 }
