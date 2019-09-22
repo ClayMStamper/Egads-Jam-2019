@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Behavior/Goto")]
 public class GoTowards : FlockBehavior {
 
-    private Transform flockagentTarget;
+    private Transform flockAgentTarget;
     
 
     public override Vector3 CalculateMove(FlockAgent agent, List<Transform> context, Flock flock) {
