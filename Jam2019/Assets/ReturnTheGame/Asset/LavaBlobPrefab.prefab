@@ -31,6 +31,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6295355877068976699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076517758907085562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d28cb150ad86f4a8100312a4aea7a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uvAnimationRate: {x: 0.1, y: 0}
+  textureName: _LavaTex
 --- !u!1001 &2843404837923400691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -115,6 +129,12 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 6042eaad9823b6f488f160b2bce47ac7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee97c127bf28b54abdbcb2631b9b3a5, type: 3}
+--- !u!1 &6076517758907085562 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 6ee97c127bf28b54abdbcb2631b9b3a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2843404837923400691}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7065999845476303081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6ee97c127bf28b54abdbcb2631b9b3a5,

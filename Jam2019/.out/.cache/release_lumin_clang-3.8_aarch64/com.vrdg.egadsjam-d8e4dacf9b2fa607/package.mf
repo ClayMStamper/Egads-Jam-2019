@@ -21,16 +21,16 @@
   },
   {
    "compression": 8,
-   "hash": "95aceb9cb2068ee8c736f1f3e7a194a72d89effa",
+   "hash": "7850570e8e8b456bfdaa4b9b60646f30a5673335",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3212188,
+   "size": 3213660,
    "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "939003c4975a1630bed6a524607e46a1a45a3b6a",
+   "hash": "734ec21848a5c97a14df8eb37030f7c86860f03d",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 49453248,
+   "size": 49470424,
    "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -41,9 +41,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "724afb76c62d0cb063d669badf5c03c0fc980163",
+   "xfrm_hash": "c95362ac7aa9f895e8b14d15df651ae5aa3a7568",
    "xfrm_path": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/.out/.cache/release_lumin_clang-3.8_aarch64/com.vrdg.egadsjam-d8e4dacf9b2fa607/libil2cpp.so-ccaf3724eacc7157",
-   "xfrm_size": 49454006
+   "xfrm_size": 49471182
   },
   {
    "compression": 8,
@@ -186,23 +186,23 @@
   },
   {
    "compression": 8,
-   "hash": "44d156a53f70be876c7c3cf1ffa98af6f2effc89",
+   "hash": "1c619f24b2871180aa229aa6c32359d2cf8fb947",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 71768,
+   "size": 71952,
    "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "9cae527ee10dc29cf5beb6ae563eedb7a47ec58e",
+   "hash": "403bd37f2f601f1a338b3e88f42958242adaea38",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 117400,
+   "size": 117608,
    "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "7f848fc868119499441c03d10997ce80bb08232f",
+   "hash": "5f862dfda076a248928fb4587264c5a018ae5814",
    "pkgpath": "Data/level0",
-   "size": 16464,
+   "size": 18104,
    "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/level0"
   },
   {
@@ -214,7 +214,7 @@
   },
   {
    "compression": 8,
-   "hash": "2899c935c46c1a92d4893de70a5f4ee41509e798",
+   "hash": "fe0085889be79d4d35d1ef16ffc0d0c6c4c0e390",
    "pkgpath": "Data/resources.assets",
    "size": 47648,
    "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/resources.assets"
@@ -235,23 +235,23 @@
   },
   {
    "compression": 8,
-   "hash": "049c9e6a73b03b6f7e7e251607bb5b4943c1d7ef",
+   "hash": "601311b91c1574df192ae3b699df1202a0feba44",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 2558144,
+   "size": 3630876,
    "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
    "compression": 8,
-   "hash": "6ca16615da3b673de494c0d187d3b387ef6f3d3d",
+   "hash": "f22f8c54861092175c48931d40bb0c7984c50438",
    "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 17855784,
+   "size": 31034312,
    "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/sharedassets0.assets.resS"
   },
   {
    "compression": 8,
-   "hash": "e9da4353bb949f662b63681e36a118fb478b64f4",
+   "hash": "42fa720162f71582adbe3cd0c9d3203a6051005f",
    "pkgpath": "Data/sharedassets0.resource",
-   "size": 819584,
+   "size": 27246592,
    "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/sharedassets0.resource"
   },
   {

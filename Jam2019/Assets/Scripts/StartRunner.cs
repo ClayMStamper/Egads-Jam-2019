@@ -13,6 +13,7 @@ public class StartRunner : MonoBehaviour
     private int currentDialog = 0;
 
     public Text dialogText;
+    public Image wispIcon;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +55,7 @@ public class StartRunner : MonoBehaviour
             running = false;
             currentDialog = 0;
             dialogText.gameObject.SetActive(false);
+            wispIcon.gameObject.SetActive(false);
         }
     }
 }

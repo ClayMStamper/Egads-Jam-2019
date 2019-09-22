@@ -20,7 +20,7 @@ public class GhostHealth : MonoBehaviour, ITakeDamage {
         
     }
 
-    private void Explode() {
+    public void Explode() {
         GetComponent<SpawnEffect>().enabled = true;
         Destroy(gameObject, destroyAfter);
         

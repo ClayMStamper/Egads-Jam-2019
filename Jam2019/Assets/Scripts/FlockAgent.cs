@@ -30,7 +30,7 @@ public class FlockAgent : MonoBehaviour
         target = GraveManager.instance.GetTarget();
         Debug.Log(transform.name + " has left the flock");
         GetComponent<TrailRenderer>().enabled = true;
-        GetComponent<BoxCollider>().enabled = true;
+        GetComponent<SphereCollider>().enabled = true;
         StartCoroutine(GotoGrave());
     }
 
@@ -69,8 +69,13 @@ public class FlockAgent : MonoBehaviour
     
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag(GRAVE_TAG)) {
+            Debug.Log("Found a grave collision");
             FindObjectOfType<GameRunner>().LoseLife();
-            other.GetComponent<GhostHealth>().TakeDamage(100);
+            var health = GetComponent<GhostHealth>();
+            if (health != null) {
+                Debug.Log("Trying to explode ghost");
+                health.Explode();
+            }
         }
     }
     
