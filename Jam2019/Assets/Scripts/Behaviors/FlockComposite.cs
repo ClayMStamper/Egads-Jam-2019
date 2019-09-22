@@ -26,6 +26,7 @@ public class FlockComposite : FlockBehavior {
                 }
 
                 move += partialMove;
+                
             }
         }
 
