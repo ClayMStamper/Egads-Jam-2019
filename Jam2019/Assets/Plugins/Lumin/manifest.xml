@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:ml="magicleap" ml:package="com.vrdg.jam" ml:version_code="1" ml:version_name="">
+  <application ml:sdk_version="1.0" ml:visible_name="Jam2019" ml:min_api_level="6">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="Jam2019">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="ControllerPose" />
+    <uses-privilege ml:name="GesturesConfig" />
+    <uses-privilege ml:name="GesturesSubscribe" />
+    <uses-privilege ml:name="HandMesh" />
+    <uses-privilege ml:name="IdentityRead" />
+    <uses-privilege ml:name="Internet" />
+    <uses-privilege ml:name="PcfRead" />
+    <uses-privilege ml:name="WorldReconstruction" />
+  </application>
+</manifest>
