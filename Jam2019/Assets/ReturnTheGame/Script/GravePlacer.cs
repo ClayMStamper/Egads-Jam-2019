@@ -32,6 +32,7 @@ namespace MagicLeap
                 foreach (GameObject grave in _graves)
                 {
                     grave.SetActive(true);
+                    GraveManager.instance.graves.Add(grave.transform);
                 }
                 return true; 
             }

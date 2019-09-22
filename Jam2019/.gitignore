@@ -17,7 +17,7 @@
 .DS_Store
 *~
 *.swp
-*.unity
+#*.unity
 *.log
 *.pyc
 

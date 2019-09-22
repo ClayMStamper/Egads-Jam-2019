@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
 
-public class Gun : MonoBehaviour {
-
-    [SerializeField] private GameObject bullet;
+public class Gun : MonoBehaviour
+{
+    public Transform bullet;
+    public Transform spawn;
     [SerializeField] private Transform axis;
     [SerializeField] private float bulletLifetime = 2;
 
