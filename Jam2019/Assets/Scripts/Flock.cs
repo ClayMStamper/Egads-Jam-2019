@@ -12,14 +12,17 @@ public class Flock : MonoBehaviour {
 
     private const float DENSITY = 0.08f;
     [Range(10, 500)] public int startingCount = 250;
-    [Range(1f, 100f)] public float speed = 10f;
-    [Range(1f, 100f)] public float maxSpeed = 5f;
+    [Range(.01f, 100f)] public float speed = 10f;
+    [Range(.01f, 100f)] public float maxSpeed = 5f;
     [Range(1f, 10f)] public float neighborRadius = 1.5f;
     [Range(0f, 1f)] public float avoidanceRadiusMultiplier = 0.5f;
 
     private float squareMaxSpeed;
     private float squareNeightborRadius;
     public float squareAvoidanceRadius { get; private set; }
+
+    private float timePerSeperation = 5f;
+    private float elapsed;
 
     private void Start() {
         
@@ -42,7 +45,11 @@ public class Flock : MonoBehaviour {
     }
 
     private void Update() {
+
+        elapsed += Time.deltaTime;
+        
         foreach (FlockAgent agent in agents) {
+                       
             List<Transform> context = GetNearbyObjects(agent);
             Vector3 move = behavior.CalculateMove(agent, context, this);
             move *= speed;
@@ -51,6 +58,11 @@ public class Flock : MonoBehaviour {
             }
             agent.Move(move);
         }
+        
+        if (elapsed > timePerSeperation){
+            agents.Random().Seperate();
+        }
+        
     }
 
     private List<Transform> GetNearbyObjects(FlockAgent agent) {
@@ -66,5 +78,6 @@ public class Flock : MonoBehaviour {
         return context;
 
     }
+
     
 }

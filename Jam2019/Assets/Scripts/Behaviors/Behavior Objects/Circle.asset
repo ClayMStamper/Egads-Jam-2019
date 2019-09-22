@@ -16,4 +16,4 @@ MonoBehaviour:
   numBase: 2
   lowerLimit: -5000000
   upperLimit: 5000000
-  yOffset: 2
+  yOffset: 50
