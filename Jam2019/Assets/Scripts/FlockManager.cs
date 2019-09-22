@@ -24,6 +24,7 @@ public class FlockManager : MonoBehaviour {
     private float timePerSeperation = 5f;
     private float elapsed;
     
+    [ContextMenu("Setup and Spawn")]
     public void Setup() {
         
         squareMaxSpeed = maxSpeed * maxSpeed;
@@ -39,7 +40,7 @@ public class FlockManager : MonoBehaviour {
                 Quaternion.Euler(Vector3.forward * Random.Range(0f, 360f)),
                 transform);
 
-            newAgent.name = "Droid " + i;
+            newAgent.name = "Ghost " + i;
             agents.Add(newAgent);
         }
     }

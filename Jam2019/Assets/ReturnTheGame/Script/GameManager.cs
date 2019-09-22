@@ -17,6 +17,7 @@ using UnityEngine.XR.MagicLeap;
 
 namespace MagicLeap
 {
+
     /// <summary>
     /// This class handles the functionality of updating the bounding box
     /// for the planes query params through input. This class also updates
@@ -39,7 +40,7 @@ namespace MagicLeap
             Play,
             End
         };
-
+    
         [SerializeField]
         private GameModes _currentGameMode = GameModes.Intro;
         
@@ -50,7 +51,6 @@ namespace MagicLeap
             _countDownText.text = string.Format("Game Mode: {0}", _currentGameMode.ToString());
         }
         
-
         /// <summary>
         /// Check editor set variables for null references.
         /// </summary>

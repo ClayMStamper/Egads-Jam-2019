@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: VRDG
-  productName: egadsJam2019
+  productName: Jam2019
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -162,7 +162,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Lumin: com.egadsvrdg.jam
+    Lumin: com.vrdg.egadsjam
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 18
@@ -649,7 +649,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: C:/Users/Letha/Desktop/MagicLeap/devcert.cert
+    m_CertPath: /Users/cstamp/Documents/privatekey/jam2019.cert
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:
