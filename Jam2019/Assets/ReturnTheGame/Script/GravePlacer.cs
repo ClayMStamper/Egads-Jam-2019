@@ -15,9 +15,11 @@ namespace MagicLeap
         private Planes _planesComponent;
         private PlaneVisualizer _planesVisualizer;
         private List<GameObject> _graves = new List<GameObject>();
+        private List<GameObject> _lava = new List<GameObject>();
         public GameObject wisp;
 
         public GameObject GravePrefab;
+        public GameObject LavaPrefab;
         public float GraveSpawnDistance = 1.0f;
         public int GraveCount = 5;
 
@@ -87,6 +89,9 @@ namespace MagicLeap
             GameObject planesParent = _planesVisualizer.PlanesParent();
             foreach (Transform child in planesParent.transform)
             {
+                
+                
+                
                 Collider planeCollider = child.gameObject.GetComponent<Collider>();
                 
                 RaycastHit hit;
@@ -100,6 +105,7 @@ namespace MagicLeap
                             instantiate = false;
                             break;
                         }
+                        
                     }
 
                     if (instantiate)
@@ -115,8 +121,38 @@ namespace MagicLeap
                         instance.transform.rotation = rotation;
                         _graves.Add(instance);
                     }
+                    else
+                        SpawnLava(hit);
                 }
 
+            }
+        }
+
+        private void SpawnLava(RaycastHit hit)
+        {
+            bool instantiate = true;
+            foreach (GameObject prevLava in _lava)
+            {
+                if (Vector3.Distance(prevLava.transform.position, hit.point) < GraveSpawnDistance)
+                {
+                    instantiate = false;
+                    break;
+                }
+                        
+            }
+
+            if (instantiate)
+            {
+                GameObject instance = Instantiate(LavaPrefab) as GameObject;
+                //instance.SetActive(false);
+                instance.transform.position = hit.point;
+                        
+
+                var lookPos = _camera.transform.position - instance.transform.position;
+                lookPos.y = 0;
+                var rotation = Quaternion.LookRotation(lookPos);
+                instance.transform.rotation = rotation;
+                _lava.Add(instance);
             }
         }
 
