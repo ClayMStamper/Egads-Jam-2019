@@ -1,0 +1,296 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/cstamp/MagicLeap/mlsdk/v0.22.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/cstamp/Documents/privatekey/jam2019.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "c4089788698b56a27ec1a7a99cfb1be80bbc1d34",
+   "xfrm_path": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/.out/.cache/release_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-d8e4dacf9b2fa607/libc++_shared.so-9e28918b4cd86328",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "b9fc71491aa46149e62cb5ed344324e30dd4d32b",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3206056,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "d2541f5bf68dad57e1968100188e1dbc55a0302e",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 49370416,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/cstamp/Documents/privatekey/jam2019.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "cd6224a384e1b8a1c11d848de31ed45426f8e254",
+   "xfrm_path": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/.out/.cache/release_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-d8e4dacf9b2fa607/libil2cpp.so-ccaf3724eacc7157",
+   "xfrm_size": 49371174
+  },
+  {
+   "compression": 8,
+   "hash": "fa2b8ff146caf64688e7aa835af0034ca81b5505",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 282448,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/cstamp/Documents/privatekey/jam2019.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "0f750aa0fa000ded4d48a40dfe8fce6f330aadc5",
+   "xfrm_path": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/.out/.cache/release_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-d8e4dacf9b2fa607/AudioPluginMSASpatializer.so-7fd5f42ef5fc8ac5",
+   "xfrm_size": 283206
+  },
+  {
+   "compression": 8,
+   "hash": "bb2019aa860ee71df5a09e859745090f0193bf29",
+   "pkgpath": "bin/LuminMediaPlayer.dll",
+   "size": 68096,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/LuminMediaPlayer.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "6ad9bb807d218548e4eb3b375bec2c1bace5bfe7",
+   "pkgpath": "bin/LuminUnity.dll",
+   "size": 329216,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/LuminUnity.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "b8ce049d2e85f27cc7346d7551d1853b20e78461",
+   "pkgpath": "bin/MSA.Runtime.dll",
+   "size": 22016,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/MSA.Runtime.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "a71acc50817a0929bccc93cbe7619d57d25d1b17",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 3077192,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/cstamp/Documents/privatekey/jam2019.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "ed98d3eadacaf80db26a1ecedb2ae4f8095e5a6c",
+   "xfrm_path": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/.out/.cache/release_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-d8e4dacf9b2fa607/UnityMagicLeap.so-7fd5f42ef5fc8ac5",
+   "xfrm_size": 3077950
+  },
+  {
+   "compression": 8,
+   "hash": "fbfa4a6aa20b14e0f60550676e5d34bebb99d46d",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/cstamp/Documents/privatekey/jam2019.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "2306929df3ff009994d7714101bd9375885878f1",
+   "xfrm_path": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/.out/.cache/release_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-d8e4dacf9b2fa607/libml_camera_plugin.so-7fd5f42ef5fc8ac5",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "88ac1047e0ac5686d703471c3115f719ca66a4e8",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67624,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/cstamp/Documents/privatekey/jam2019.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "6c03c6b24a065756ccae8a378054e85492866139",
+   "xfrm_path": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/.out/.cache/release_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-d8e4dacf9b2fa607/libml_mediaplayer_plugin.so-7fd5f42ef5fc8ac5",
+   "xfrm_size": 68382
+  },
+  {
+   "compression": 8,
+   "hash": "984e4d2049ed5491b970ba15d1e8c8cadac0896e",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 339968,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "fa10859a933989c5961257c02d9f4fcf042044f1",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3689324,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "88bb7afbcf63275d0962b4c7c7cede30a1b0d014",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 770468,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "778891100a8030ad6096db64784c6e5d67c28378",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 417,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "81d2c0d36cecc850e9713956ecfe5c0a60b8a713",
+   "pkgpath": "Data/boot.config",
+   "size": 144,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "3839b8e170c502a9943c8ac2f58a399d2bf054ee",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 71216,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "df27580274dfaf3b45a894d4d26ed63ed92be4af",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 116568,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "933766471bde7ae3c8f1ae08bec395ac9a305bf5",
+   "pkgpath": "Data/level0",
+   "size": 7264,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "f55b90b2b91cb6d6cbc5264b3c800956fd3de881",
+   "pkgpath": "Data/resources.assets",
+   "size": 689472,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "1d5e5447a0f0b085b695376c9fdb7738e07e4f23",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 360480,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "72df8187e8b57e64fb93926431a0053987da4917",
+   "pkgpath": "Data/resources.resource",
+   "size": 5875136,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/resources.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "5afd66c933e8cb88f378d5cf71a1162d9ae59f35",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1211872,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "b37c603be88deaf44ed5e52fe176c1e5055fc9c4",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 3812296,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "e9da4353bb949f662b63681e36a118fb478b64f4",
+   "pkgpath": "Data/sharedassets0.resource",
+   "size": 819584,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/sharedassets0.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "61d3d50aa3472ee134e4c14f0f43bcbdc0215e33",
+   "pkgpath": "bin/Player.elf",
+   "size": 20710840,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/cstamp/Documents/privatekey/jam2019.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "5749d3ceaaede52a4e532ce269cc8bf895fb6de7",
+   "xfrm_path": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/.out/.cache/release_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-d8e4dacf9b2fa607/Player.elf-50d22c16166f4ece",
+   "xfrm_size": 20711598
+  },
+  {
+   "compression": 8,
+   "hash": "62975f0e6ac88391d3bc684441ab9b08ef603215",
+   "pkgpath": "manifest.xml",
+   "size": 899,
+   "src": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "17ba2f6457c5c9ec6c1ad21313558b7d40e362e0",
+     "developer_id": "f8b1f39d-a077-4d86-a632-46b473f24661"
+    }
+   },
+   "xfrm_hash": "e4b77ece1a6a4b0aa176da4e1108c79b5e407d35",
+   "xfrm_path": "/Users/cstamp/UnityProgs/Egads-Jam-2019/Jam2019/.out/.cache/release_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-d8e4dacf9b2fa607/manifest.xml-50d22c16166f4ece",
+   "xfrm_size": 912
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/cstamp/Documents/privatekey/jam2019.cert"
+  },
+  "taildata": {
+   "devcert": "/Users/cstamp/Documents/privatekey/jam2019.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

@@ -43,6 +43,8 @@ Category {
 			half _BloomThreshold;
 			
 			struct appdata_t {
+			
+				UNITY_VERTEX_INPUT_INSTANCE_ID
 				float4 vertex : POSITION;
 				float4 normal : NORMAL;
 				half4 color : COLOR;
@@ -57,11 +59,16 @@ Category {
 				float4 texcoordBlendFrame : TEXCOORD1;
 #endif
 #endif
+
 			};
 
 			struct v2f {
+			
+			    UNITY_VERTEX_OUTPUT_STEREO
+			    
 				float4 vertex : SV_POSITION;
 				half4 color : COLOR;
+
 #ifdef FrameBlend_OFF
 				float2 texcoord : TEXCOORD0;
 #else
@@ -84,6 +91,11 @@ Category {
 			v2f vert (appdata_t v)
 			{
 				v2f o;
+				
+				UNITY_SETUP_INSTANCE_ID(v); //Insert
+                UNITY_INITIALIZE_OUTPUT(v2f, o); //Insert
+                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o); //Insert
+				
 				o.vertex = UnityObjectToClipPos(v.vertex);
 
 				o.projPos = ComputeScreenPos (o.vertex);
