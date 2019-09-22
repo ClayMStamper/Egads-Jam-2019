@@ -23,6 +23,7 @@ namespace MagicLeap
         public GameObject LavaPrefab;
         public float GraveSpawnDistance = 1.0f;
         public int GraveCount = 5;
+        public int lavaCount = 5;
 
         // Distance close to sensor's maximum recognition distance.
         private static readonly Vector3 _boundlessExtentsSize = new Vector3(10.0f, 10.0f, 10.0f);
@@ -44,6 +45,13 @@ namespace MagicLeap
 
             return false;
         }
+        
+        public bool LavaPlaced()
+        {
+            return (_lava.Count >= lavaCount);
+
+        }
+
 
         void Awake()
         {
@@ -70,7 +78,7 @@ namespace MagicLeap
         /// </summary>
         void Update()
         {
-            if (GravesPlaced())
+            if (GravesPlaced() && LavaPlaced())
             {
                 return;
             }
