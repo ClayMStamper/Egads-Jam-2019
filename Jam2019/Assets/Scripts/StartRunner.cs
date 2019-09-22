@@ -53,6 +53,7 @@ public class StartRunner : MonoBehaviour
         {
             running = false;
             currentDialog = 0;
+            dialogText.gameObject.SetActive(false);
         }
     }
 }

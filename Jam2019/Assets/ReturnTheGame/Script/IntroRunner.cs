@@ -15,6 +15,10 @@ public class IntroRunner : MonoBehaviour
 
     public Image splashImage; 
     
+    public Image _wispIcon;
+
+    public Text _dialogText;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +60,9 @@ public class IntroRunner : MonoBehaviour
                 fadeOut = false;
                 running = false;
                 splashImage.gameObject.SetActive(false);
+                
+                _wispIcon.gameObject.SetActive(true);
+                _dialogText.gameObject.SetActive(true);
             }
 
             splashImage.color = new Color(splashImage.color.r, splashImage.color.g, splashImage.color.b,
