@@ -10,6 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce7144e115a895d4fac6f5542545840e, type: 3}
-  m_Name: FlockPlayer
+  m_Name: Circle
   m_EditorClassIdentifier: 
-  expBase: 2
+  exp: 2
+  numBase: 2
+  lowerLimit: -5000000
+  upperLimit: 5000000
+  yOffset: 2
