@@ -28,12 +28,16 @@ Category {
 			struct appdata_t {
 				fixed4 vertex : POSITION;
 				fixed2 texcoord : TEXCOORD0;
+
+				UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 
 			struct v2f {
 				fixed4 vertex : SV_POSITION;
 				fixed2 texcoord : TEXCOORD0;
 				fixed2 texcoord1 : TEXCOORD1;
+				
+				UNITY_VERTEX_OUTPUT_STEREO
 			};
 			
 			fixed4 _MainTex_ST;
@@ -45,6 +49,11 @@ Category {
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.texcoord = TRANSFORM_TEX(v.texcoord,_MainTex);
 				o.texcoord1 = TRANSFORM_TEX(v.texcoord,_LavaTex);
+				
+				UNITY_SETUP_INSTANCE_ID(v); //Insert
+                UNITY_INITIALIZE_OUTPUT(v2f, o); //Insert
+                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o); //Insert
+                    
 				return o;
 			}
 			
