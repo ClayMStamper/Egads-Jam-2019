@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18366013, g: 0.22913976, b: 0.3051944, a: 1}
+  m_IndirectSpecularColor: {r: 0.18364772, g: 0.22912571, b: 0.3051873, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -298,7 +298,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 3a8129b6ec58343ed99cd647f3dcf4e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 89e71202df232d149981e3a11520d5e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -585,87 +585,6 @@ Transform:
   m_Father: {fileID: 971798619}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1245732011
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1245732012}
-  - component: {fileID: 1245732014}
-  - component: {fileID: 1245732013}
-  m_Layer: 5
-  m_Name: GameModeText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1245732012
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245732011}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0015, y: 0.0015, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1827102959}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.013, y: 0.217}
-  m_SizeDelta: {x: 298.7031, y: 34.4695}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1245732013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245732011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: adcae46baa3736748a69f9f489676bd7, type: 3}
-    m_FontSize: 12
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Game Mode Text
-
-'
---- !u!222 &1245732014
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245732011}
-  m_CullTransparentMesh: 0
 --- !u!1 &1462129510
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,7 +690,6 @@ GameObject:
   - component: {fileID: 1497288043}
   - component: {fileID: 1497288039}
   - component: {fileID: 1497288038}
-  - component: {fileID: 1497288042}
   - component: {fileID: 1497288041}
   m_Layer: 0
   m_Name: GameManager
@@ -792,7 +710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7a319ae6448f6b42b5443e60f0eb936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameModeText: {fileID: 1245732013}
+  _countDownText: {fileID: 1783318361}
   _currentGameMode: 0
 --- !u!114 &1497288038
 MonoBehaviour:
@@ -806,7 +724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad28fd99311f664f95fdc39b929687f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wisp: {fileID: 1565256034}
+  wisp: {fileID: 0}
   GravePrefab: {fileID: 6865823182688692051, guid: 0c675334177650645ac2a0a3571795ec,
     type: 3}
   GraveSpawnDistance: 2.5
@@ -854,28 +772,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _flockManager: {fileID: 1743379243}
   lives: 10
---- !u!114 &1497288042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497288036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 870051e7afb9d4d57a4c47079ba12e59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  running: 0
-  DialogTimes:
-  - 1
-  - 1
-  - 1
-  DialogEntries:
-  - 3
-  - 2
-  - 1
-  dialogText: {fileID: 1783318361}
 --- !u!114 &1497288043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -932,12 +828,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.XR.MagicLeap.Planes+PlanesUpdateEvent, Assembly-CSharp,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!1 &1565256034 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1164701910817525093, guid: ec73f150497775b498c2b64717e29ad5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1683062530}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1683062530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1203,7 +1093,6 @@ RectTransform:
   - {fileID: 135973458}
   - {fileID: 1989357366}
   - {fileID: 1783318360}
-  - {fileID: 1245732012}
   m_Father: {fileID: 1731829235}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
