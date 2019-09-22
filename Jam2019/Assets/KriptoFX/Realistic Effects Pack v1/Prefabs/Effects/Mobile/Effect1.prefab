@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4365476308396008}
   - component: {fileID: 198622446549413936}
   - component: {fileID: 199609814422951442}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4548,7 +4548,7 @@ GameObject:
   - component: {fileID: 4955059956495916}
   - component: {fileID: 182167006345125118}
   - component: {fileID: 114235031772244542}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4631,7 +4631,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4507649461637692}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4665,7 +4665,7 @@ GameObject:
   - component: {fileID: 4065500847268368}
   - component: {fileID: 198235804352816786}
   - component: {fileID: 199838143174310324}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9211,7 +9211,7 @@ GameObject:
   - component: {fileID: 4092685043814794}
   - component: {fileID: 114521565017659900}
   - component: {fileID: 82758585431409614}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9379,7 +9379,7 @@ GameObject:
   - component: {fileID: 8807209407833232683}
   - component: {fileID: 2999937881139737273}
   - component: {fileID: -2203627469812272484}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Effect1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9466,7 +9466,7 @@ GameObject:
   - component: {fileID: 4444884359181426}
   - component: {fileID: 108232309203994076}
   - component: {fileID: 114167759922238572}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9597,7 +9597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4717855465239012}
   - component: {fileID: 114220772037692900}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9667,7 +9667,7 @@ GameObject:
   - component: {fileID: 198922622147787844}
   - component: {fileID: 199125335403053752}
   - component: {fileID: 114045831716490988}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CoreTrails2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14179,7 +14179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4930520484511738}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14212,7 +14212,7 @@ GameObject:
   - component: {fileID: 4399912422596844}
   - component: {fileID: 114011118590276136}
   - component: {fileID: 82634188235837010}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Echo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
