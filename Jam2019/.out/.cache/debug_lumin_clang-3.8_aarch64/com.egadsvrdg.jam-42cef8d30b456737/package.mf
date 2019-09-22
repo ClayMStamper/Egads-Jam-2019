@@ -1,0 +1,304 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "0ef3b95e82347b6d07b0758254a40946d26c910e",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3208780,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "b86c68acea55ce4d3ccf2e19babd016d023d6535",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 49405848,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Letha\\Desktop\\MagicLeap\\devcert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "c14e58005f9811e7884ec4e5b6863a8fa31780e6",
+   "xfrm_path": "C:/Users/Letha/Egads-Jam-2019/Jam2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-42cef8d30b456737\\libil2cpp.so-8810845eecae0c09",
+   "xfrm_size": 49406606
+  },
+  {
+   "compression": 8,
+   "hash": "fa2b8ff146caf64688e7aa835af0034ca81b5505",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 282448,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Letha\\Desktop\\MagicLeap\\devcert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "6ae0787222a27145179c7997bc47ce6f744b5227",
+   "xfrm_path": "C:/Users/Letha/Egads-Jam-2019/Jam2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-42cef8d30b456737\\AudioPluginMSASpatializer.so-307e9429bb59e463",
+   "xfrm_size": 283206
+  },
+  {
+   "compression": 8,
+   "hash": "bb2019aa860ee71df5a09e859745090f0193bf29",
+   "pkgpath": "bin/LuminMediaPlayer.dll",
+   "size": 68096,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/LuminMediaPlayer.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "6ad9bb807d218548e4eb3b375bec2c1bace5bfe7",
+   "pkgpath": "bin/LuminUnity.dll",
+   "size": 329216,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/LuminUnity.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "b8ce049d2e85f27cc7346d7551d1853b20e78461",
+   "pkgpath": "bin/MSA.Runtime.dll",
+   "size": 22016,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/MSA.Runtime.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "a71acc50817a0929bccc93cbe7619d57d25d1b17",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 3077192,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Letha\\Desktop\\MagicLeap\\devcert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "45e968d1b02b8ccb47e96b68ebcd9568335e6bd3",
+   "xfrm_path": "C:/Users/Letha/Egads-Jam-2019/Jam2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-42cef8d30b456737\\UnityMagicLeap.so-307e9429bb59e463",
+   "xfrm_size": 3077950
+  },
+  {
+   "compression": 8,
+   "hash": "fbfa4a6aa20b14e0f60550676e5d34bebb99d46d",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Letha\\Desktop\\MagicLeap\\devcert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "0b5a21a59a2246cb07f2e267bb8dd4931d195a54",
+   "xfrm_path": "C:/Users/Letha/Egads-Jam-2019/Jam2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-42cef8d30b456737\\libml_camera_plugin.so-307e9429bb59e463",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "88ac1047e0ac5686d703471c3115f719ca66a4e8",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67624,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Letha\\Desktop\\MagicLeap\\devcert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "3c83e79780f2962dba107be764fe1d6a0d363429",
+   "xfrm_path": "C:/Users/Letha/Egads-Jam-2019/Jam2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-42cef8d30b456737\\libml_mediaplayer_plugin.so-307e9429bb59e463",
+   "xfrm_size": 68382
+  },
+  {
+   "compression": 8,
+   "hash": "984e4d2049ed5491b970ba15d1e8c8cadac0896e",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 339968,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "fa10859a933989c5961257c02d9f4fcf042044f1",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3689324,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "88bb7afbcf63275d0962b4c7c7cede30a1b0d014",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 770468,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "778891100a8030ad6096db64784c6e5d67c28378",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 417,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "81d2c0d36cecc850e9713956ecfe5c0a60b8a713",
+   "pkgpath": "Data/boot.config",
+   "size": 144,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "48c23aea8ac65111db7aab31dc3c370fe3f76094",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 71488,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "b80ba60c4ae3852daff294f03d1c48ddc9effc12",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 116848,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "b9121f0d09579f37a516f9b600d99c94e174c6d3",
+   "pkgpath": "Data/level0",
+   "size": 15536,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "ab65805793388d15a2837e363df1ccb966517059",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "3131cc67d4465da3173f887184f9bfded8cb75b6",
+   "pkgpath": "Data/resources.assets",
+   "size": 47648,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "1d5e5447a0f0b085b695376c9fdb7738e07e4f23",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 360480,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "6cdc0e4cbe1201c4ca6f1a16e833814ac2bbc3a8",
+   "pkgpath": "Data/resources.resource",
+   "size": 5875136,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/resources.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "285d9d6f245023b2c3669bf9481c5b2505763988",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1824552,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "5b9f521ff89a0a670d1f4ef24fa17634837d2f79",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 15572840,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "61d3d50aa3472ee134e4c14f0f43bcbdc0215e33",
+   "pkgpath": "bin/Player.elf",
+   "size": 20710840,
+   "src": "C:/Users/Letha/Egads-Jam-2019/Jam2019/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Letha\\Desktop\\MagicLeap\\devcert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "3810daffe547aecb6f71bb51a444f28b4a6d85b3",
+   "xfrm_path": "C:/Users/Letha/Egads-Jam-2019/Jam2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-42cef8d30b456737\\Player.elf-a06776687025f062",
+   "xfrm_size": 20711598
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/Users/Letha/MagicLeap/mlsdk/v0.22.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Letha\\Desktop\\MagicLeap\\devcert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "271630ebdd6d1f30392cca9aa85b61a6d777efe2",
+   "xfrm_path": "C:/Users/Letha/Egads-Jam-2019/Jam2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-42cef8d30b456737\\libc++_shared.so-4d8cb4547221cead",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "bd8a5d5b42cacbfa4231dbced8214d74c8c51c01",
+   "pkgpath": "manifest.xml",
+   "size": 915,
+   "src": "C:\\Users\\Letha\\Egads-Jam-2019\\Jam2019\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "b95e2f540930b3e2ee48040a35991802e4368b08",
+     "developer_id": "61a85e96-abdf-4979-aecc-1696058c353f"
+    }
+   },
+   "xfrm_hash": "b44366a04b8c0303a55795003c0a695724317a9f",
+   "xfrm_path": "C:/Users/Letha/Egads-Jam-2019/Jam2019/.out/.cache/debug_lumin_clang-3.8_aarch64/com.egadsvrdg.jam-42cef8d30b456737\\manifest.xml-a06776687025f062",
+   "xfrm_size": 927
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "C:\\Users\\Letha\\Desktop\\MagicLeap\\devcert.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "C:\\Users\\Letha\\Desktop\\MagicLeap\\devcert.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

@@ -26,11 +26,12 @@ namespace MagicLeap
     public class GameManager : MonoBehaviour
     {
         [SerializeField, Space, Tooltip("Text to display countdown to start the level")]
-        private Text _countDownText = null;
+        private Text _gameModeText = null;
 
         private IntroRunner _introRunner;
         private GravePlacer _gravePlacer;
         private GameRunner _gameRunner;
+        private StartRunner _startRunner;
         
         private enum GameModes
         {
@@ -48,7 +49,7 @@ namespace MagicLeap
 
         void SetGameModeText()
         {
-            _countDownText.text = string.Format("Game Mode: {0}", _currentGameMode.ToString());
+            _gameModeText.text = string.Format("Game Mode: {0}", _currentGameMode.ToString());
         }
         
         /// <summary>
@@ -56,9 +57,9 @@ namespace MagicLeap
         /// </summary>
         void Awake()
         {
-            if (_countDownText == null)
+            if (_gameModeText == null)
             {
-                Debug.LogError("Error: GameManager._countDownText is not set, disabling script.");
+                Debug.LogError("Error: GameManager._gameModeText is not set, disabling script.");
                 enabled = false;
                 return;
             }
@@ -93,6 +94,13 @@ namespace MagicLeap
                 enabled = false;
                 return;
             }
+
+            _startRunner = GetComponent<StartRunner>();
+            if (!_startRunner) {
+                Debug.LogError("Error: GameManager._startRunner is not set, disabling script.");
+                enabled = false;
+                return;
+            }
             
         }
 
@@ -110,12 +118,15 @@ namespace MagicLeap
                     if (_gravePlacer.GravesPlaced())
                     {
                         _currentGameMode = GameModes.Start; 
+                        _startRunner.Run();
                     }
                     break;
                 case GameModes.Start:
-                    // TODO run game mode
-                    _currentGameMode = GameModes.Play;
-                    _gameRunner.RunGame();
+                    if (!_startRunner.IsRunning())
+                    {
+                        _currentGameMode = GameModes.Play;
+                        _gameRunner.RunGame();
+                    }
                     break;
                 case GameModes.Play:
                     if (!_gameRunner.IsRunning()) {

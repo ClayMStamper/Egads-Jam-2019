@@ -68,7 +68,7 @@ public class FlockAgent : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag(GRAVE_TAG)) {
             FindObjectOfType<GameRunner>().LoseLife();
-            GetComponent<GhostHealth>().TakeDamage(100);
+            other.GetComponent<GhostHealth>().TakeDamage(100);
         }
     }
     
